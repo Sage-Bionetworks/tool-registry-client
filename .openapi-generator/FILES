@@ -1,3 +1,4 @@
+README.md
 docs/Error.md
 docs/PageOfTools.md
 docs/PageOfToolsAllOf.md
@@ -6,13 +7,6 @@ docs/ResponsePageMetadataLinks.md
 docs/Tool.md
 docs/ToolApi.md
 test/__init__.py
-test/test_error.py
-test/test_page_of_tools.py
-test/test_page_of_tools_all_of.py
-test/test_response_page_metadata.py
-test/test_response_page_metadata_links.py
-test/test_tool.py
-test/test_tool_api.py
 toolregistryclient/__init__.py
 toolregistryclient/api/__init__.py
 toolregistryclient/api/tool_api.py
