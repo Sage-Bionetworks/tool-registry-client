@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     # basic
-    name='rocc-client',
+    name='tool-registry-client',
     version='0.1.0',
     # packages=setuptools.find_packages(exclude=["tests", "tests.*"]),
     # py_modules=['hello'],
@@ -26,16 +26,16 @@ setuptools.setup(
     ],
 
     # metadata to display on PyPI
-    description='ROCC Client Library for Python',
+    description='Tool Registry Library for Python',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/Sage-Bionetworks/rocc-client',
-    author='The ROCC Team',
+    url='https://github.com/Sage-Bionetworks/tool-registry-client',
+    author='The Tool Registry Team',
     author_email='thomas.schaffter@sagebionetworks.org',
     license='Apache',
     project_urls={
-        "Source Code": "https://github.com/Sage-Bionetworks/rocc-client",
-        "Bug Tracker": "https://github.com/Sage-Bionetworks/rocc-client/issues",
+        "Source Code": "https://github.com/Sage-Bionetworks/tool-registry-client",
+        "Bug Tracker": "https://github.com/Sage-Bionetworks/tool-registry-client/issues",
     },
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
