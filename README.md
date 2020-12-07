@@ -1,11 +1,14 @@
-# Tool Registry Client Library for Python
+# Tool Registry Client
 
 [![GitHub Release](https://img.shields.io/github/release/Sage-Bionetworks/tool-registry-client.svg?include_prereleases&color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/Sage-Bionetworks/tool-registry-client/releases)
 [![GitHub CI](https://img.shields.io/github/workflow/status/Sage-Bionetworks/tool-registry-client/ci.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/Sage-Bionetworks/tool-registry-client)
 [![GitHub License](https://img.shields.io/github/license/Sage-Bionetworks/tool-registry-client.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/Sage-Bionetworks/tool-registry-client)
 [![PyPi](https://img.shields.io/pypi/v/tool-registry-client.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=PyPi&logo=PyPi)](https://pypi.org/project/tool-registry-client)
 
+Tool Registry Client Library for Python
+
 # Overview
+
 TBA
 
 
