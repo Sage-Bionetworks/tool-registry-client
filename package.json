@@ -1,11 +1,11 @@
 {
-    "name": "rocc-client",
+    "name": "tool-registry-client",
     "version": "0.1.0",
     "license": "Apache-2.0",
     "devDependencies": {
         "@openapitools/openapi-generator-cli": "^1.0.18-4.3.1"
     },
     "scripts": {
-        "generate:client": "openapi-generator generate -g python -o . --package-name roccclient -i $npm_config_spec"
+        "generate:client": "openapi-generator generate -g python -o . --package-name toolregistryclient -i $npm_config_spec"
     }
 }

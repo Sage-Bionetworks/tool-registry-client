@@ -11,8 +11,8 @@ on:
       - '*.*.*'
   pull_request:
 
-env:
-  docker_repository: nlpsandbox/cli
+# env:
+#   docker_repository: nlpsandbox/cli
 
 jobs:
   lint:
@@ -47,6 +47,7 @@ jobs:
         pip install tox tox-gh-actions
     - name: Test with tox
       run: tox
+
   pypi:
     needs: [test]
     runs-on: ubuntu-latest
