@@ -34,8 +34,8 @@ setuptools.setup(
     author_email='thomas.schaffter@sagebionetworks.org',
     license='Apache',
     project_urls={
-        "Source Code": "https://github.com/Sage-Bionetworks/tool-registry-client",
-        "Bug Tracker": "https://github.com/Sage-Bionetworks/tool-registry-client/issues",
+        "Source Code": "https://github.com/Sage-Bionetworks/tool-registry-client",  # noqa: E501
+        "Bug Tracker": "https://github.com/Sage-Bionetworks/tool-registry-client/issues",  # noqa: E501
     },
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
