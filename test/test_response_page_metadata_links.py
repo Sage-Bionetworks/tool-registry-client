@@ -43,10 +43,10 @@ class TestResponsePageMetadataLinks(unittest.TestCase):
             return ResponsePageMetadataLinks(
         )
 
-    def testResponsePageMetadataLinks(self):
-        """Test ResponsePageMetadataLinks"""
-        inst_req_only = self.make_instance(include_optional=False)
-        inst_req_and_optional = self.make_instance(include_optional=True)
+    # def testResponsePageMetadataLinks(self):
+    #     """Test ResponsePageMetadataLinks"""
+    #     inst_req_only = self.make_instance(include_optional=False)
+    #     inst_req_and_optional = self.make_instance(include_optional=True)
 
 
 if __name__ == '__main__':

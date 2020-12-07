@@ -37,8 +37,8 @@ class TestResponsePageMetadata(unittest.TestCase):
         # model = toolregistryclient.models.response_page_metadata.ResponsePageMetadata()  # noqa: E501
         if include_optional :
             return ResponsePageMetadata(
-                offset = 56, 
-                limit = 56, 
+                offset = 56,
+                limit = 56,
                 links = toolregistryclient.models.response_page_metadata_links.ResponsePageMetadata_links(
                     next = '0', )
             )
@@ -50,10 +50,10 @@ class TestResponsePageMetadata(unittest.TestCase):
                     next = '0', ),
         )
 
-    def testResponsePageMetadata(self):
-        """Test ResponsePageMetadata"""
-        inst_req_only = self.make_instance(include_optional=False)
-        inst_req_and_optional = self.make_instance(include_optional=True)
+    # def testResponsePageMetadata(self):
+    #     """Test ResponsePageMetadata"""
+    #     inst_req_only = self.make_instance(include_optional=False)
+    #     inst_req_and_optional = self.make_instance(include_optional=True)
 
 
 if __name__ == '__main__':
